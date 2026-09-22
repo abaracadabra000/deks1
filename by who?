@@ -1,0 +1,101 @@
+<!DOCTYPE html>
+<html lang="id">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+  <title>Pilihan Video</title>
+
+  <style>
+    * {
+      box-sizing: border-box;
+    }
+
+    body {
+      margin: 0;
+      min-height: 100vh;
+      display: flex;
+      justify-content: center;
+      align-items: center;
+      font-family: Arial, sans-serif;
+      background: linear-gradient(135deg, #111827, #2563eb);
+    }
+
+    .container {
+      width: 90%;
+      max-width: 450px;
+      padding: 35px 25px;
+      background: white;
+      border-radius: 20px;
+      text-align: center;
+      box-shadow: 0 15px 40px rgba(0, 0, 0, 0.3);
+    }
+
+    h1 {
+      margin: 0 0 10px;
+      color: #111827;
+    }
+
+    p {
+      color: #6b7280;
+      margin-bottom: 30px;
+    }
+
+    .button {
+      display: block;
+      width: 100%;
+      padding: 16px;
+      margin: 15px 0;
+      border-radius: 12px;
+      color: white;
+      text-decoration: none;
+      font-size: 18px;
+      font-weight: bold;
+      transition: 0.2s;
+    }
+
+    .button:hover {
+      transform: translateY(-2px);
+      opacity: 0.9;
+    }
+
+    .video-a {
+      background: #2563eb;
+    }
+
+    .video-b {
+      background: #16a34a;
+    }
+  </style>
+</head>
+
+<body>
+
+  <div class="container">
+
+    <h1>🎬 Pilih Video</h1>
+
+    <p>Silakan pilih versi video yang ingin ditonton.</p>
+
+    <a
+      class="button video-a"
+      href="https://share.google/h5PHYK0a1fm5cG7EV"
+      target="_blank"
+      rel="noopener noreferrer"
+    >
+      ▶️ Opsi A
+    </a>
+
+    <a
+      class="button video-b"
+      href="https://share.google/vkA3HbEGmho9dHBOe"
+      target="_blank"
+      rel="noopener noreferrer"
+    >
+      ▶️ Opsi B
+    </a>
+
+  </div>
+
+</body>
+</html>
